@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="redireccionar('../')" id="in">Inicio</button>
+    <h3>Nombre</h3>
+    <input type="text" id="nombre" placeholder="nombre" required>
+    <h3>Correo</h3>
+    <input type="email" name="email" id="email" placeholder="email" required>
+    <h3>edad</h3>
+    <input type="number" name="edad" id="edad" placeholder="edad" required min="2" max="3">
+    <h3>N° Celular</h3>
+    <input type="number" name="cel" id="cel" placeholder="N° celular" required min="10" max="10">
+    <h3>contraseña</h3>
+    <input type="password" name="contraseña" id="contraseña" placeholder="contraseña" required min="8"><br>
+    <input type="button" name="enviar" onclick="guardar()" id="enviar" value="gardar">
+    <script src="./functions.js"></script>
+    <script src="../redirect.js"></script>
+</body>
+</html>

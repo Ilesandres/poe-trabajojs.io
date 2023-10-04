@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reemplazo de Vocales</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <button onclick="redireccionar('../')">Inicio</button>
+  <h1>Reemplazo de Vocales</h1>
+  <label for="cadena">Ingresa una cadena de texto:</label>
+  <textarea type="text" id="cadena" placeholder="Escribe una cadena " cols="30" rows="10"></textarea><br>
+  <label for="caracter">Ingresa el carácter de reemplazo:</label>
+  <label for="caracter">se reemplazan todas las vocales </label>
+  <input type="text" id="caracter" placeholder="Carácter de reemplazo">
+  <button onclick="reemplazar()">Reemplazar</button>
+  <p id="resultado"></p>
+  <script src="./index.js"></script>
+  <script src="../redirect.js"></script>
+</body>
+</html>
